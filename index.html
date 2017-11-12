@@ -15,54 +15,124 @@
                margin:0 15%;
                font-size: 2em;
                border:2px solid #faf0e7;
-               border-radius:100px 100px 100px 100px;
+               border-radius:10% 10% 10% 10%;
                background-color: #faf0e7;
                color: #812027;
         }
         .beijing{
                background: linear-gradient(to right,rgba(255,252,251,1),rgba(254,236,222,5)); 
+               width:100%;
         }
-
-        li{
-                margin: 0px auto;
-				background-color: #828280;
-				width:235px;
-				height:55px;
+         
+			li{
+                border-radius:100px 100px 100px 100px;
+                margin: 0 auto;
+				background-color: #ebf3e3;
+				width:20%;
+				height:55%;
 				text-align: center;
 				line-height:51px;
 				float:left;
 				list-style-type:none;
-                font-size: 25px;
-              
+                font-size: 3em;
+               
 			}
+       
 		a1{ 
-				color:white;
+				color:#123555;
 				text-decoration: none;
 				}
 			li:hover {
-				background-color: #b0d35b;
+				background-color: #d1ddc3;
 			}
         
+     <style type="text/css" >
+.nav{ width:980px; height:47px; margin:0 auto;}
+.nav_l,.nav_r{ width:7px; height:47px;}
+.nav_l{ margin-left:3px; }
+
+.nav_m{ width:960px; height:47px; }
+.nav_m ul li{ float:left; width:113px; height:47px; text-align:center; position:relative; margin:0; padding:0; }
+.nav_m ul li ul { display:none; background:url(../images/nav_m.gif) repeat-x;}
+.nav_m ul li:hover ul { display:block; width:110px; height:47px; position:absolute; left:-30px;}
+.nav_m ul li:hover ul li{ display:block; clear:both;text-align:left;font-size:12px;} 
+.nav_m ul li ul li a{ width:107px; height:47px; line-height:47px; color:#000; font-size:14px; font-weight:bold; display:block; text-align:center;}
+.nav_m ul li ul li a:hover{border:0;background:#fafafa;border-bottom:1px solid #fff;} 
     </style>
 </head>
 <body class="beijing">
     <div style="background-image:url(timg1.png);background-position:center; background-repeat:no-repeat;width:100%;height:100% ;">
       
       <br><br><br>
-      <span class="denglu"><a href="#tou">&nbsp;&nbsp;登录&nbsp;&nbsp;</a></span><br><br>
-      <span class="denglu"><a href="#tou">&nbsp;&nbsp;注册&nbsp;&nbsp;</a></span>
+      <span class="denglu"><a1 href="#tou">&nbsp;&nbsp;登录&nbsp;&nbsp;</a1></span><br><br>
+      <span class="denglu"><a1 href="#tou">&nbsp;&nbsp;注册&nbsp;&nbsp;</a1></span>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       
     
      </div>
-      <ul  style=" align:center;">
-			<li><a1 href="#1">首页</a1></li>
-			<li><a1 href="#2">日漫</a1></li>
-			<li><a1 href="#3">国漫</a1></li>
-			<li><a1 href="#4">个人中心</a1></li>
-    </ul>
+      
+    <div style="text-align:center;">
     <table>
+<ul  style=" margin:0 32%;width:55%">
         
+                    
+<div class="nav"  style="width:28%;height:30%;float:left">
+<div class="nav_l fl"></div>
+<div class="nav_m fl">
+<ul>
+<li><a href="/index.html">日漫</a>
+<ul>
+<li><a href="/gsjj/dtjs/index.html">热血</a></li>
+<li><a href="/xwzx/index.html">恋爱</a></li>
+<li><a href="/cpzx/index.html" >校园</a></li>
+<li><a href="/jjfa/index.html">搞笑</a></li>
+<li><a href="/qdgl/qdzc/index.html">科幻</a></li>
+<li><a href="/zczx/index.html">运动</a></li>
+<li><a href="/lxwm/lxfs/index.html">神魔</a></li>
+</ul> 
+</li> 
+</ul>
+</div>
+</div>
+  
+<div class="nav" style="width:30%;height:30%;float:center">
+<div class="nav_l fl"></div>
+<div class="nav_m fl">
+<ul>
+<li><a href="/index.html">国漫</a>
+<ul>
+<li><a href="/gsjj/dtjs/index.html">热血</a></li>
+<li><a href="/xwzx/index.html">恋爱</a></li>
+<li><a href="/cpzx/index.html" >校园</a></li>
+<li><a href="/jjfa/index.html">搞笑</a></li>
+<li><a href="/qdgl/qdzc/index.html">科幻</a></li>
+<li><a href="/zczx/index.html">运动</a></li>
+<li><a href="/lxwm/lxfs/index.html">神魔</a></li>
+</ul> 
+</li> 
+</ul>
+</div>
+</div>      
+
+<div class="nav" style="width:30%;height:30%;float:right">
+<div class="nav_l fl"></div>
+<div class="nav_m fl">
+<ul>
+<li><a href="/index.html">个人中心</a>
+<ul>
+<li><a href="/gsjj/dtjs/index.html">登陆</a></li>
+<li><a href="/xwzx/index.html">注册</a></li>
+<li><a href="/cpzx/index.html" >查看我</a></li>
+<li><a href="/jjfa/index.html">消息</a></li>
+<li><a href="/qdgl/qdzc/index.html">关注</a></li>
+</ul> 
+</li> 
+</ul>
+</div>
+</div>
+
+    </ul>
     </table>
+    </div>
 </body>
 </html>
